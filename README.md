@@ -690,8 +690,8 @@ Imaginem que volem mostrar el nombre de places disponibles en funció del tipus 
 Afegim una nova variable d'estat `placesNoGraduats` i `placesGraduats` al component `App`:
 
 ```jsx
-const [ngPlaces, setNGPlaces] = useState(60);
-const [gPlaces, setGPlaces] = useState(40);
+const [ngPlaces, setPlacesNoGraduats()] = useState(60);
+const [gPlaces, setPlacesGraduats()] = useState(40);
 ```
 
 I amb una lògica ternària podem decidir si actualitzem un o altre:
